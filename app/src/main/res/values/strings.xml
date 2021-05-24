@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Modules</string>
+    <string name="c346">C346 Android Programming</string>
+    <string name="c328">C328 Intelligent Networking</string>
+    <string name="c203">C203 Web App Development</string>
+    <string name="c228">C228 Operating System Security</string>
+    <string name="c331">C331 Digital Security and Forensics</string>
 </resources>

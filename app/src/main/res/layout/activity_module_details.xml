@@ -4,43 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     android:orientation="vertical"
-    android:padding = "16dp"
-    tools:context=".MainActivity">
+    tools:context=".ModuleDetailActivity">
 
     <TextView
-        android:id="@+id/textViewC203"
+        android:id="@+id/textViewCode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="@string/c203" />
+        android:textSize="20sp"/>
 
     <TextView
-        android:id="@+id/textViewC228"
+        android:id="@+id/textViewName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="@string/c228" />
+        android:textSize="20sp"/>
 
     <TextView
-        android:id="@+id/textViewC328"
+        android:id="@+id/textViewYear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="@string/c328" />
+        android:textSize="20sp"/>
 
     <TextView
-        android:id="@+id/textViewC331"
+        android:id="@+id/textViewSem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="@string/c331" />
+        android:textSize="20sp"/>
 
     <TextView
-        android:id="@+id/textViewC346"
-        android:layout_width="wrap_content"
+        android:id="@+id/textViewCredit"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="@string/c346" />
+        android:textSize="20sp"/>
 
+    <TextView
+        android:id="@+id/textViewVenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
 </LinearLayout>
