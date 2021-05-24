@@ -75,5 +75,13 @@ public class ModuleDetailActivity extends AppCompatActivity {
             tvv.setText("Venue: E62E");
         }
 
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ModuleDetailActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
